@@ -257,8 +257,9 @@ img {
 	padding: 15px
 }
 
-.planning .card > * {
-    padding: 25px;
+
+.planning .col-12 > * {
+    margin-bottom: 20px;
 }
 
 @media (min-width: 992px) {
