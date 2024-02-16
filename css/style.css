@@ -78,6 +78,7 @@ img {
 
 /* COMPONENTS */
 .button {
+    display: inline-block;
 	border-radius: 999px;
 	line-height: 46px;
 	background-color: var(--dark-blue);
@@ -249,7 +250,6 @@ img {
 }
 
 .planning .button {
-    display: inline-block;
     border-radius: 999px;
     line-height: 0px;
 	padding: 15px
@@ -342,6 +342,7 @@ img {
 	padding: 0 calc(var(--gutter) * 0.5);
 }
 
+
 .why-us {
     background-color: var(--lilac);
 }
@@ -352,6 +353,7 @@ img {
 
 .why-us__header > h2 {
     text-align: center;
+    color: white;
 }
 
 .why-us .card  {
@@ -374,7 +376,6 @@ img {
 
 .why-us .button--lilac {
     color: white;
-    display: inline-block;
 }
 
 .why-us .card > * {
@@ -393,3 +394,30 @@ img {
     }
 }
 
+/* ABOUT US */
+
+.about-us {
+    padding: 50px 0px;
+}
+
+.about-us .card > * {
+    padding: 20px 0px;
+    line-height: 30px;
+}
+
+.about-us__title {
+    color: var(--lilac);
+}
+
+.about-us .card > p {
+    padding: 20px 0px;
+}
+
+.partner__image.about-us__image {
+    width: 200px;
+    height: 200px;
+}
+
+.about-us .button--lilac {
+    color: white;
+}
